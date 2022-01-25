@@ -16,12 +16,12 @@ export class MorseConverterPipe implements PipeTransform {
         break;
 
       case "b":
-        morseCode = "· —"
+        morseCode = "— · · ·"
         return morseCode
         break;
 
       case "c":
-        morseCode = "· —"
+        morseCode = "— · — ·"
         return morseCode
         break;
 
